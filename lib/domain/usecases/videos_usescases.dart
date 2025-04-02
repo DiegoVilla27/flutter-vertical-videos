@@ -11,7 +11,7 @@ import 'package:vertical_videos_app/domain/repository/videos_repository.dart';
 class VideoUsesCases {
   final VideoRepository videoRepository;
 
-  VideoUsesCases(this.videoRepository);
+  VideoUsesCases({required this.videoRepository});
 
   Future<List<VideoEntity>> getVideos() async {
     return await videoRepository.getVideos();
