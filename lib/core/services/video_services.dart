@@ -7,19 +7,19 @@ import 'package:vertical_videos_app/domain/usecases/videos_usescases.dart';
 /// It uses a private constructor to ensure only one instance is created,
 /// accessible via the factory constructor.
 class VideoServices {
-  // Instancia estática privada
+  // Private static instance
   static final VideoServices _instance = VideoServices._internal();
 
-  // Instancia de VideoRepository y VideoUseCases
+  // Instance of VideoRepository and VideoUseCases
   final VideoRepositoryImpl videoRepository = VideoRepositoryImpl();
   late final VideoUsesCases videoUseCases;
 
-  // Constructor privado
+  // Private constructor
   VideoServices._internal() {
-    videoUseCases = VideoUsesCases(videoRepository);
+    videoUseCases = VideoUsesCases(videoRepository: videoRepository);
   }
 
-  // Método estático para acceder a la instancia única
+  // Static method to access the single instance
   factory VideoServices() {
     return _instance;
   }
