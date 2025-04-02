@@ -1,4 +1,4 @@
-import 'package:vertical_videos_app/domain/entities/video.dart';
+import 'package:vertical_videos_app/domain/entities/video_entity.dart';
 
 /// A model class representing a video with properties such as name, URL, likes, and views.
 /// 

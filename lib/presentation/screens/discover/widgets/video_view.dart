@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vertical_videos_app/domain/entities/video.dart';
+import 'package:vertical_videos_app/domain/entities/video_entity.dart';
 import 'package:vertical_videos_app/presentation/screens/discover/widgets/video_player/video_full.dart';
 import 'package:vertical_videos_app/presentation/screens/discover/widgets/buttons/video_buttons.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:vertical_videos_app/config/theme/theme.dart';
-import 'package:vertical_videos_app/presentation/providers/videos.dart';
-import 'package:vertical_videos_app/presentation/screens/discover/discover.dart';
+import 'package:vertical_videos_app/presentation/providers/videos_provider.dart';
+import 'package:vertical_videos_app/presentation/screens/discover/discover_screen.dart';
 
 void main() {
   runApp(const MyApp());

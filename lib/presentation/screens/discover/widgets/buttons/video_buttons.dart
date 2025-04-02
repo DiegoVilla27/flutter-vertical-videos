@@ -1,6 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:vertical_videos_app/domain/entities/video.dart';
+import 'package:vertical_videos_app/domain/entities/video_entity.dart';
 import 'package:vertical_videos_app/presentation/screens/discover/widgets/buttons/video_icon.dart';
 
 /// A widget that displays a set of interactive video buttons, including

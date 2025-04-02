@@ -18,5 +18,5 @@ samples, guidance on mobile development, and a full API reference.
 ## Configuring Project
 
 Videos library: [https://www.pexels.com/search/videos/vertical/](https://www.pexels.com/search/videos/vertical/)
-It's necessary add vertical videos in assets/videos/
+It's necessary add vertical videos in root assets/videos/
 The name of videos will be 1.mp4, 2.mp4, 3.mp4, 4.mp4, 5.mp4, 6.mp4, 7.mp4, 8.mp4
