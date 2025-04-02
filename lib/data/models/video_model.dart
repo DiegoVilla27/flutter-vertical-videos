@@ -5,10 +5,10 @@ import 'package:vertical_videos_app/domain/entities/video_entity.dart';
 /// Provides a factory constructor to create an instance from a JSON map and a method to convert
 /// the model to a `VideoEntity`.
 class VideoModel {
-  String name;
-  String videoUrl;
-  int likes;
-  int views;
+  final String name;
+  final String videoUrl;
+  final int likes;
+  final int views;
 
   VideoModel({
     required this.name,
